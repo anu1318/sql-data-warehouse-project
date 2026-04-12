@@ -35,7 +35,8 @@ CREATE TABLE bronze.crm_prd_info (
     prd_cost     INT,
     prd_line     NVARCHAR(50),
     prd_start_dt DATETIME,
-    prd_end_dt   DATETIME
+    prd_end_dt   DATETIME,
+    cst_create_date  DATE
 );
 GO
 
@@ -52,7 +53,8 @@ CREATE TABLE bronze.crm_sales_details (
     sls_due_dt   INT,
     sls_sales    INT,
     sls_quantity INT,
-    sls_price    INT
+    sls_price    INT,
+    cst_create_date  DATE
 );
 GO
 
